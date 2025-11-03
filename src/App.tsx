@@ -61,9 +61,9 @@ function App() {
 
   const experiences = [
     {
-      role: "Front End Developer",
+      role: "Digital Specialist Enginner-L1",
       company: "Infosys Ltd",
-      period: "Aug, 2021 - Jan, 2023",
+      period: "Aug, 2021 - Present",
       description: "As a Digital Specialist Engineer at Infosys, I leverage expertise in ReactJS, HTML, CSS, and Bootstrap to develop high-performance web applications. My experience includes spearheading chatbot interface development, optimizing e-commerce platforms, and leading database migrations. I prioritize user experience, resulting in increased customer satisfaction and improved site performance metrics.  Proficient in version control (GitHub) and collaborative development, I consistently deliver efficient and scalable solutions.",
       image: `${infosys}`,
     },
@@ -365,7 +365,7 @@ function App() {
               <Section id="about" title="About Me">
                 <div className="max-w-3xl mx-auto text-gray-700 space-y-6 fade-in">
                   <p>
-                  As a Digital Specialist Engineer with over 3.5+ years of experience, I specialize in web development and cloud solutions, delivering high-impact results for leading global brands. At Infosys, I spearheaded the development of an interactive chatbot interface for Polo Ralph Lauren, boosting user engagement by 30%. I’ve led multiple projects where I streamlined front-end processes, achieving up to 40% faster load times and increasing customer satisfaction through intuitive designs               
+                  As a Digital Specialist Engineer with over 4.2+ years of experience, I specialize in web development and cloud solutions, delivering high-impact results for leading global brands. At Infosys, I spearheaded the development of an interactive chatbot interface for Polo Ralph Lauren, boosting user engagement by 30%. I’ve led multiple projects where I streamlined front-end processes, achieving up to 40% faster load times and increasing customer satisfaction through intuitive designs               
                   </p>
                   
                   <p>Academically, I hold a BTech in Information Technology from Jawaharlal Nehru Technological University and am pursuing an MBA in HR from Andhra University. My technical acumen is complemented by certifications like Infosys Certified Front-End Web Developer and Microsoft Certified Azure Fundamentals, reinforcing my ability to drive innovation in both front-end and cloud architecture. </p>
