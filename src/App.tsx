@@ -50,7 +50,7 @@ function App() {
 
   const handleMailto = (event: React.FormEvent) => {
     event.preventDefault();
-    const mailtoLink = `mailto:saileshgandhamofficial@gmail.com?subject=New Message from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${message}`;
+    const mailtoLink = `mailto:saileshgandham1117@gmail.com?subject=New Message from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${message}`;
     window.location.href = mailtoLink;
   };
 
