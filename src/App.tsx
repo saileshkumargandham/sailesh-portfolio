@@ -31,20 +31,6 @@ function App() {
   const [message, setMessage] = useState('');
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
 
-  const getExperienceYears = (startYear: number, startMonth: number, extraMonths = 1) => {
-  const now = new Date();
-  const start = new Date(startYear, startMonth - 1, 1); // month is 1-based here
-  const totalMonths =
-    (now.getFullYear() - start.getFullYear()) * 12 +
-    (now.getMonth() - start.getMonth()) +
-    extraMonths; // add one month as requested
-  const years = totalMonths / 12;
-  return (Math.floor(years * 10) / 10).toFixed(1); // one decimal place, e.g. "4.4"
-};
-
-const experienceYears = getExperienceYears(2021, 8); // use Aug 2021 as start date (Infosys)
-
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -85,7 +71,7 @@ const experienceYears = getExperienceYears(2021, 8); // use Aug 2021 as start da
       role: "Google cloud ready facilitator",
       company: "Google",
       period: "Apr, 2021 - Jun, 2021",
-      description: "As a Google Cloud Ready Facilitator intern, I immersed myself in the Google Cloud Platform (GCP), achieving Milestone 3 and demonstrating my proficiency by completing 24 quests and earning 12 skill badges.  This hands-on experience provided a solid foundation in cloud computing principles and practical application development on GCP.",
+      description: "As a Google Cloud Ready Facilitator intern, I immersed myself in the Google Cloud Platform (GCP), achieving Milestone 3 and demonstrating my proficiency by completing 24 quests and earning 12 skill badges.  This hands-on ience provided a solid foundation in cloud computing principles and practical application development on GCP.",
       image: `${google}`,
     },
     {
@@ -378,8 +364,8 @@ const experienceYears = getExperienceYears(2021, 8); // use Aug 2021 as start da
               {/* About Section */}
               <Section id="about" title="About Me">
                 <div className="max-w-3xl mx-auto text-gray-700 space-y-6 fade-in">
-                  <p>
-  As a Digital Specialist Engineer with over {experienceYears}+ years of experience, I specialize in web development and cloud solutions, delivering high-impact results for leading global brands. At Infosys, I spearheaded the development of an interactive chatbot interface for Polo Ralph Lauren, boosting user engagement by 30%. I’ve led multiple projects where I streamlined front-end processes, achieving up to 40% faster load times and increasing customer satisfaction through intuitive designs
+                 <p>
+  As a Digital Specialist Engineer with over 4.5+ years of experience, I specialize in web development and cloud solutions, delivering high-impact results for leading global brands. At[...]
 </p>
                   
                   <p>Academically, I hold a BTech in Information Technology from Jawaharlal Nehru Technological University and am pursuing an MBA in HR from Andhra University. My technical acumen is complemented by certifications like Infosys Certified Front-End Web Developer and Microsoft Certified Azure Fundamentals, reinforcing my ability to drive innovation in both front-end and cloud architecture. </p>
