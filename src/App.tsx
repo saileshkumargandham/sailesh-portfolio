@@ -365,7 +365,7 @@ function App() {
               <Section id="about" title="About Me">
                 <div className="max-w-3xl mx-auto text-gray-700 space-y-6 fade-in">
                  <p>
-  As a Digital Specialist Engineer with over 4.5+ years of experience, I specialize in web development and cloud solutions, delivering high-impact results for leading global brands. At[...]
+  As a Digital Specialist Engineer -1 with over 4.5+ years of experience, I specialize in web development and cloud solutions, delivering high-impact results for leading global brands. At[...]
 </p>
                   
                   <p>Academically, I hold a BTech in Information Technology from Jawaharlal Nehru Technological University and am pursuing an MBA in HR from Andhra University. My technical acumen is complemented by certifications like Infosys Certified Front-End Web Developer and Microsoft Certified Azure Fundamentals, reinforcing my ability to drive innovation in both front-end and cloud architecture. </p>
