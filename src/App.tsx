@@ -387,7 +387,7 @@ function App() {
                       <li>
                         <p className="font-medium">Master of Business Administration in Human Resources</p>
                         <p className="text-sm">Andhra University</p>
-                        <p>Jan 2024 – Dec 2025</p>
+                        <p>Jan 2024 – Jan 2026</p>
                       </li>
                       <li>
                         <p className="font-medium">Bachelor of Technology in Information Technology</p>
